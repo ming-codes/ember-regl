@@ -1,5 +1,7 @@
 # ember-regl
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ming-codes/ember-regl.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
