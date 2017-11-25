@@ -1,28 +1,18 @@
 # ember-regl
 
+[![Build Status](https://travis-ci.org/ming-codes/ember-regl.svg?branch=master)](https://travis-ci.org/ming-codes/ember-regl)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ming-codes/ember-regl.svg)](https://greenkeeper.io/)
 
-This README outlines the details of collaborating on this Ember addon.
+[regl](http://regl.party) shim for Ember.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-regl`
-* `npm install`
+* `ember install ember-regl`
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Now you can just import `regl`.
 
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+```js
+import createREGL from 'regl';
+```
