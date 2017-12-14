@@ -44,13 +44,13 @@
     "loader.js": "^4.2.3",
     "regl": "< 2.0.0"
   },
+  "peerDependencies": {
+    "regl": "< 2.0.0"
+  },
   "engines": {
     "node": ">= 4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "peerDependencies": {
-    "regl": "< 2.0.0"
   }
 }
